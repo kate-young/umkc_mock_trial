@@ -1,0 +1,271 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'babel-present-react' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json umkc_mock_trial@1.0.0 No repository field.
+6 warn package.json umkc_mock_trial@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react', null ]
+9 verbose cache add name=undefined spec="react" args=["react",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react',
+10 verbose parsed url   path: 'react',
+10 verbose parsed url   href: 'react' }
+11 verbose cache add [ 'react-dom', null ]
+12 verbose cache add name=undefined spec="react-dom" args=["react-dom",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'react-dom',
+13 verbose parsed url   path: 'react-dom',
+13 verbose parsed url   href: 'react-dom' }
+14 verbose cache add [ 'babel-present-react', null ]
+15 verbose cache add name=undefined spec="babel-present-react" args=["babel-present-react",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'babel-present-react',
+16 verbose parsed url   path: 'babel-present-react',
+16 verbose parsed url   href: 'babel-present-react' }
+17 silly lockFile 6b810c90-react react
+18 verbose lock react /home/kate/.npm/6b810c90-react.lock
+19 silly lockFile 7ddbc806-react-dom react-dom
+20 verbose lock react-dom /home/kate/.npm/7ddbc806-react-dom.lock
+21 silly lockFile 14c027b9-babel-present-react babel-present-react
+22 verbose lock babel-present-react /home/kate/.npm/14c027b9-babel-present-react.lock
+23 silly lockFile 6b810c90-react react
+24 silly lockFile 6b810c90-react react
+25 silly lockFile 7ddbc806-react-dom react-dom
+26 silly lockFile 7ddbc806-react-dom react-dom
+27 silly lockFile 14c027b9-babel-present-react babel-present-react
+28 silly lockFile 14c027b9-babel-present-react babel-present-react
+29 verbose addNamed [ 'react', '' ]
+30 verbose addNamed [ null, '*' ]
+31 silly lockFile 0baa5bb3-react react@
+32 verbose lock react@ /home/kate/.npm/0baa5bb3-react.lock
+33 verbose addNamed [ 'react-dom', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile 59defc87-react-dom react-dom@
+36 verbose lock react-dom@ /home/kate/.npm/59defc87-react-dom.lock
+37 verbose addNamed [ 'babel-present-react', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile 2defbf33-babel-present-react babel-present-react@
+40 verbose lock babel-present-react@ /home/kate/.npm/2defbf33-babel-present-react.lock
+41 silly addNameRange { name: 'react', range: '*', hasData: false }
+42 silly addNameRange { name: 'react-dom', range: '*', hasData: false }
+43 verbose request where is /react
+44 verbose request registry https://registry.npmjs.org/
+45 verbose request id b51309a3077dbe21
+46 verbose url raw /react
+47 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+48 verbose url resolved https://registry.npmjs.org/react
+49 verbose request where is https://registry.npmjs.org/react
+50 info trying registry request attempt 1 at 22:09:04
+51 http GET https://registry.npmjs.org/react
+52 silly addNameRange { name: 'babel-present-react', range: '*', hasData: false }
+53 verbose request where is /react-dom
+54 verbose request registry https://registry.npmjs.org/
+55 verbose url raw /react-dom
+56 verbose url resolving [ 'https://registry.npmjs.org/', './react-dom' ]
+57 verbose url resolved https://registry.npmjs.org/react-dom
+58 verbose request where is https://registry.npmjs.org/react-dom
+59 info trying registry request attempt 1 at 22:09:04
+60 verbose etag "22LMCNDWP0LOAGSFP9V3FK3BU"
+61 http GET https://registry.npmjs.org/react-dom
+62 verbose request where is /babel-present-react
+63 verbose request registry https://registry.npmjs.org/
+64 verbose url raw /babel-present-react
+65 verbose url resolving [ 'https://registry.npmjs.org/', './babel-present-react' ]
+66 verbose url resolved https://registry.npmjs.org/babel-present-react
+67 verbose request where is https://registry.npmjs.org/babel-present-react
+68 info trying registry request attempt 1 at 22:09:04
+69 http GET https://registry.npmjs.org/babel-present-react
+70 http 304 https://registry.npmjs.org/react-dom
+71 silly registry.get cb [ 304,
+71 silly registry.get   { date: 'Sun, 03 Jan 2016 04:09:04 GMT',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     'cache-control': 'max-age=300',
+71 silly registry.get     etag: '"22LMCNDWP0LOAGSFP9V3FK3BU"',
+71 silly registry.get     age: '18',
+71 silly registry.get     connection: 'keep-alive',
+71 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+71 silly registry.get     'x-cache': 'HIT',
+71 silly registry.get     'x-cache-hits': '1',
+71 silly registry.get     'x-timer': 'S1451794144.735567,VS0,VE0',
+71 silly registry.get     vary: 'Accept' } ]
+72 verbose etag https://registry.npmjs.org/react-dom from cache
+73 silly addNameRange number 2 { name: 'react-dom', range: '*', hasData: true }
+74 silly addNameRange versions [ 'react-dom',
+74 silly addNameRange   [ '0.1.0',
+74 silly addNameRange     '0.14.0-beta1',
+74 silly addNameRange     '0.14.0-beta2',
+74 silly addNameRange     '0.14.0-beta3',
+74 silly addNameRange     '0.14.0-rc1',
+74 silly addNameRange     '0.14.0',
+74 silly addNameRange     '0.14.1',
+74 silly addNameRange     '0.14.2',
+74 silly addNameRange     '0.14.3',
+74 silly addNameRange     '0.14.4',
+74 silly addNameRange     '0.14.5' ] ]
+75 verbose addNamed [ 'react-dom', '0.14.5' ]
+76 verbose addNamed [ '0.14.5', '0.14.5' ]
+77 silly lockFile 202a83d7-react-dom-0-14-5 react-dom@0.14.5
+78 verbose lock react-dom@0.14.5 /home/kate/.npm/202a83d7-react-dom-0-14-5.lock
+79 silly lockFile 202a83d7-react-dom-0-14-5 react-dom@0.14.5
+80 silly lockFile 202a83d7-react-dom-0-14-5 react-dom@0.14.5
+81 silly lockFile 59defc87-react-dom react-dom@
+82 silly lockFile 59defc87-react-dom react-dom@
+83 http 200 https://registry.npmjs.org/react
+84 silly registry.get cb [ 200,
+84 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+84 silly registry.get     etag: '"6B3PZ3H47VYSNOJMSHV6RJRJP"',
+84 silly registry.get     'content-type': 'application/json',
+84 silly registry.get     'cache-control': 'max-age=300',
+84 silly registry.get     'content-length': '76956',
+84 silly registry.get     'accept-ranges': 'bytes',
+84 silly registry.get     date: 'Sun, 03 Jan 2016 04:09:04 GMT',
+84 silly registry.get     via: '1.1 varnish',
+84 silly registry.get     age: '44',
+84 silly registry.get     connection: 'keep-alive',
+84 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+84 silly registry.get     'x-cache': 'HIT',
+84 silly registry.get     'x-cache-hits': '1',
+84 silly registry.get     'x-timer': 'S1451794144.721808,VS0,VE0',
+84 silly registry.get     vary: 'Accept' } ]
+85 silly addNameRange number 2 { name: 'react', range: '*', hasData: true }
+86 silly addNameRange versions [ 'react',
+86 silly addNameRange   [ '0.0.1',
+86 silly addNameRange     '0.0.2',
+86 silly addNameRange     '0.0.3',
+86 silly addNameRange     '0.1.2',
+86 silly addNameRange     '0.2.0',
+86 silly addNameRange     '0.2.1',
+86 silly addNameRange     '0.2.2',
+86 silly addNameRange     '0.2.3',
+86 silly addNameRange     '0.2.4',
+86 silly addNameRange     '0.2.5',
+86 silly addNameRange     '0.2.6',
+86 silly addNameRange     '0.3.0',
+86 silly addNameRange     '0.3.4',
+86 silly addNameRange     '0.3.5',
+86 silly addNameRange     '0.5.0',
+86 silly addNameRange     '0.5.1',
+86 silly addNameRange     '0.5.2',
+86 silly addNameRange     '0.6.0',
+86 silly addNameRange     '0.6.1',
+86 silly addNameRange     '0.6.2',
+86 silly addNameRange     '0.6.3',
+86 silly addNameRange     '0.7.0',
+86 silly addNameRange     '0.7.1',
+86 silly addNameRange     '0.8.0',
+86 silly addNameRange     '0.9.0-rc1',
+86 silly addNameRange     '0.9.0',
+86 silly addNameRange     '0.10.0-rc1',
+86 silly addNameRange     '0.10.0',
+86 silly addNameRange     '0.11.0-rc1',
+86 silly addNameRange     '0.11.0',
+86 silly addNameRange     '0.11.1',
+86 silly addNameRange     '0.11.2',
+86 silly addNameRange     '0.12.0-rc1',
+86 silly addNameRange     '0.12.0',
+86 silly addNameRange     '0.12.1',
+86 silly addNameRange     '0.12.2',
+86 silly addNameRange     '0.13.0-alpha.1',
+86 silly addNameRange     '0.13.0-alpha.2',
+86 silly addNameRange     '0.13.0-beta.1',
+86 silly addNameRange     '0.13.0-beta.2',
+86 silly addNameRange     '0.13.0-rc1',
+86 silly addNameRange     '0.13.0-rc2',
+86 silly addNameRange     '0.13.0',
+86 silly addNameRange     '0.13.1',
+86 silly addNameRange     '0.13.2',
+86 silly addNameRange     '0.13.3',
+86 silly addNameRange     '0.14.0-alpha1',
+86 silly addNameRange     '0.14.0-alpha2',
+86 silly addNameRange     '0.14.0-alpha3',
+86 silly addNameRange     '0.14.0-beta1',
+86 silly addNameRange     '0.14.0-beta2',
+86 silly addNameRange     '0.14.0-beta3',
+86 silly addNameRange     '0.14.0-rc1',
+86 silly addNameRange     '0.14.0',
+86 silly addNameRange     '0.14.1',
+86 silly addNameRange     '0.14.2',
+86 silly addNameRange     '0.14.3',
+86 silly addNameRange     '0.14.4',
+86 silly addNameRange     '0.14.5' ] ]
+87 verbose addNamed [ 'react', '0.14.5' ]
+88 verbose addNamed [ '0.14.5', '0.14.5' ]
+89 silly lockFile 958150c1-react-0-14-5 react@0.14.5
+90 verbose lock react@0.14.5 /home/kate/.npm/958150c1-react-0-14-5.lock
+91 silly lockFile 394190ef-npmjs-org-react-react-0-14-5-tgz https://registry.npmjs.org/react/-/react-0.14.5.tgz
+92 verbose lock https://registry.npmjs.org/react/-/react-0.14.5.tgz /home/kate/.npm/394190ef-npmjs-org-react-react-0-14-5-tgz.lock
+93 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.14.5.tgz',
+93 verbose addRemoteTarball   '4250649db2b3047c01dc2f60098388a60eab6681' ]
+94 info retry fetch attempt 1 at 22:09:04
+95 verbose fetch to= /tmp/npm-4769-9w1qfwG2/registry.npmjs.org/react/-/react-0.14.5.tgz
+96 http GET https://registry.npmjs.org/react/-/react-0.14.5.tgz
+97 http 404 https://registry.npmjs.org/babel-present-react
+98 silly registry.get cb [ 404,
+98 silly registry.get   { 'content-type': 'application/json',
+98 silly registry.get     'cache-control': 'max-age=0',
+98 silly registry.get     'content-length': '2',
+98 silly registry.get     'accept-ranges': 'bytes',
+98 silly registry.get     date: 'Sun, 03 Jan 2016 04:09:04 GMT',
+98 silly registry.get     via: '1.1 varnish',
+98 silly registry.get     age: '0',
+98 silly registry.get     connection: 'keep-alive',
+98 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+98 silly registry.get     'x-cache': 'MISS',
+98 silly registry.get     'x-cache-hits': '0',
+98 silly registry.get     'x-timer': 'S1451794144.728881,VS0,VE151' } ]
+99 http 200 https://registry.npmjs.org/react/-/react-0.14.5.tgz
+100 silly lockFile 2defbf33-babel-present-react babel-present-react@
+101 silly lockFile 2defbf33-babel-present-react babel-present-react@
+102 silly lockFile 394190ef-npmjs-org-react-react-0-14-5-tgz https://registry.npmjs.org/react/-/react-0.14.5.tgz
+103 silly lockFile 394190ef-npmjs-org-react-react-0-14-5-tgz https://registry.npmjs.org/react/-/react-0.14.5.tgz
+104 silly lockFile 958150c1-react-0-14-5 react@0.14.5
+105 silly lockFile 958150c1-react-0-14-5 react@0.14.5
+106 silly lockFile 0baa5bb3-react react@
+107 silly lockFile 0baa5bb3-react react@
+108 error 404 Not Found
+108 error 404
+108 error 404 'babel-present-react' is not in the npm registry.
+108 error 404 You should bug the author to publish it
+108 error 404 It was specified as a dependency of 'umkc_mock_trial'
+108 error 404
+108 error 404 Note that you can also install from a
+108 error 404 tarball, folder, or http url, or git url.
+109 error System Linux 3.19.0-42-generic
+110 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "react" "react-dom" "babel-present-react"
+111 error cwd /home/kate/javascript_projects/umkc_mock_trial
+112 error node -v v0.10.37
+113 error npm -v 1.4.28
+114 error code E404
+115 verbose exit [ 1, true ]
