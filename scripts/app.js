@@ -1,7 +1,7 @@
-require.config({
-    baseUrl: 'node_modules',
-    paths: {
-        jquery: 'jquery',
-        bootstrap: 'bootstrap'
-    }
+$('.scroll').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget:  $(this).attr('href')
+    });
+    return false;
 });
