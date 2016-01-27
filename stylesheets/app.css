@@ -1,15 +1,36 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-image: url(../images/mock_trial.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50px 175px;
 }
 .page {
     height: 1000px;
 }
-h1 {
-    color: #ccc;
+.header {
     padding-top: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #EEBB40;
+}
+h1 {
+    color: #aaa;
+    padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    text-transform: uppercase;
+    font-size: 32px;
 }
+.nav-pills>li>a{
+    border-radius: 0px;
+    text-transform: uppercase;
+    color: #055585;
+}
+.nav>li>a:hover, .nav>li>a:hover {
+    background-color: #EEBB40;
+    color: #fff;
+}
+

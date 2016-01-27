@@ -3,40 +3,38 @@
 <head>
   <meta charset="utf-8">
     <title>UMKC Mock Trial</title>
-    <link rel="stylesheet" href="stylesheets/app.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
 </head>
-
-<div class="container">
-    <div class="header clear-fix">
-        <nav>
-            <!-- Brand and toggle get grouped for better mobile display -->
-          <ul class="nav nav-pills pull-right">
-            <li><a class="scroll" role="presentation" href="#welcome">Home</a></li>
-            <li><a class="scroll" role="presentation" href="#about">About</a></li>
-            <li><a class="scroll" role="presentation" href="#meet">Meet</a></li>
-            <li><a class="scroll" role="presentation" href="#join">Join</a></li>
-          </ul>
-        </nav>
-    </div>
-</div>
 <body>
+<div id="header" class="header container">
+    <nav>
+        <!-- Brand and toggle get grouped for better mobile display -->
+      <ul class="nav nav-pills pull-right">
+        <li><a class="scroll" role="presentation" href="#welcome">Home</a></li>
+        <li><a class="scroll" role="presentation" href="#about">About</a></li>
+        <li><a class="scroll" role="presentation" href="#meet">Meet</a></li>
+        <li><a class="scroll" role="presentation" href="#join">Join</a></li>
+      </ul>
+    </nav>
+</div>
 <div class="container">
-    <div class="page" id="welcome">
+    <div class="page odd" id="welcome">
         <h1>Welcome to UMKC Mock Trial</h1>
     </div>
-    <div class="page" id="about">
+    <div class="page even" id="about">
         <h1>About Mock Trial</h1>
     </div>
-    <div class="page" id="meet">
+    <div class="page odd" id="meet">
         <h1>Meet the Team</h1>
     </div>
-    <div class="page" id="join">
+    <div class="page even" id="join">
         <h1>Join the team</h1>
     </div>
 </div>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script>
+<script src="node_modules/sticky-header/index.js"></script>
 <script src="scripts/app.js"></script>
 </body>
 <html>

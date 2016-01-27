@@ -13,6 +13,7 @@
     "browserify": "^13.0.0",
     "jquery": "^2.1.4",
     "jquery-smooth-scroll": "^1.7.1",
-    "single-page": "^1.1.0"
+    "single-page": "^1.1.0",
+    "sticky-header": "^0.2.1"
   }
 }
